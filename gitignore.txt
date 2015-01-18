@@ -1,0 +1,16 @@
+lib-cov
+*.seed
+*.log
+*.csv
+*.dat
+*.out
+*.pid
+*.gz
+pids
+logs
+results
+npm-debug.log
+node_modules
+blog/node_modules
+m101.sublime-project
+m101.sublime-workspace

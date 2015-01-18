@@ -1,0 +1,9 @@
+mongoimport --type csv --headerline weather_data.csv -d weather -c data
+
+mongo
+
+show dbs
+
+user weather
+
+db.data.find({'Wind Direction':{$gt:180,$lt:360}},{'State':true, '_id':false}).sort({'Temperature':1}).limit(1);
