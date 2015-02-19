@@ -1,0 +1,3 @@
+Question 6:
+	Remove all indexes from the collection, leaving only the index on _id in place 
+	Set w=0, j=0 on writes

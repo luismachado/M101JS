@@ -1,0 +1,6 @@
+-> patient_id // probably the best one
+_id // hotspotting
+primary care  // always available?!
+date and time // hotspotting
+patient first name // low cardinality
+patient last name // low cardinality
